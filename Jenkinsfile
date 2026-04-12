@@ -31,7 +31,7 @@ pipeline {
         sh 'java -jar target/MyMavenSeleniumApp01-1.0-SNAPSHOT-shaded.jar'
     }
 }
-        }
+        
 
         
     }
