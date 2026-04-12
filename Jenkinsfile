@@ -22,7 +22,12 @@ pipeline {
                 sh 'mvn test'  // Run unit tests
             }
         }
-
+        
+stage('Check Target Folder') {
+    steps {
+        sh 'ls -l target'
+    }
+}
         
         
        
